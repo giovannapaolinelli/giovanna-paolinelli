@@ -24,6 +24,10 @@ With a certain level of proven experience, contributes to software development, 
 
 With vast experience, enhances software development, leading complex system development and ambiguous situation handling. Tackles intricate problems and mentors junior and mid-level engineers. Champions coding standards, project strategy, and technology adoption. Communicates across teams, influencing technical and non-technical stakeholders. This individual contributor role blends technical expertise with leadership, focusing on innovation, mentorship, and strategic contributions to the development process.
 
+### Junior QA Engineer
+
+The Junior QA Engineer will assist in testing software systems, primarily focusing on manual and automated testing. This entry-level role is ideal for those with limited experience in QA, offering guidance and opportunities to learn and grow within the field.
+
 ## Challenges Full-Stack
 
 - [ ] [01 - Dynamox Full-Stack Developer Challenge](./full-stack-challenge.md)
@@ -32,6 +36,10 @@ With vast experience, enhances software development, leading complex system deve
 
 - [ ] [01 - Dynamox Front-end Developer Challenge V1](./front-end-challenge-v1.md)
 - [ ] [02 - Dynamox Front-end Developer Challenge V2](./front-end-challenge-v2.md)
+  
+## Challenges QA
+
+- [ ] [01 - Dynamox QA Challenge](./qa-challenge.md)
 
 ## Ready to Begin the Challenges?
 

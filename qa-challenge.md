@@ -85,7 +85,7 @@ You should structure your QA solution with the following:
   * Instructions for running the tests with CI/CD setup
   * Summary of test coverage and scenarios
 
-## 🧑‍⚖️ Evaluation Criteria (continued)
+## 🧑‍⚖️ Evaluation Criteria
 
 Your submission will be evaluated based on the following additional criteria:
 

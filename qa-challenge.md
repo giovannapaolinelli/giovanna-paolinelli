@@ -42,14 +42,25 @@ Bonus points if you also:
 ## User Stories (to test)
 These user stories must be translated into test scenarios using the Given/When/Then format in .feature files.
 
-Route Access & UI Load
-1. [ ] As a user, I want to access the /data route and see a screen with a header and charts about machine data.
-Chart Rendering
-1. [ ] As a user, I want to see 3 time-series charts: acceleration, velocity, and temperature, each with correct axes.
-Dynamic Data Fetch
-1. [ ] As a user, I want data to be fetched every time I access /data, using the mock API.
-Crosshair & Tooltip Sync
-1. [ ] As a user, I want to hover over a chart point and see a synchronized vertical crosshair across all charts with tooltips.
+1 - Authentication
+
+1. [ ] As a user, I want to log in using a fixed email and password so that I can access private routes.
+1. [ ] As a user, I want to be able to log out of the system so that I can prevent unauthorized access to my account.
+1. [ ] No private routes should be accessible without authentication.
+
+2 - Machine Management
+
+1. [ ] As a user, I want to create a new machine with an arbitrary name and with a type selected from a list ["Pump", "Fan"] so that I can manage it later.
+1. [ ] As a user, I want to change the attributes (name and type) of a machine after creating it so that I can keep the machine information updated.
+1. [ ] As a user, I want to delete a machine when it is no longer in use so that it doesn't clutter the system.
+
+3 - Monitoring Points and Sensors Management
+
+1. [ ] As a user, I want to create at least two monitoring points with arbitrary names for an existing machine, so that I can monitor the machine's performance.
+1. [ ] As a user, I want to associate a sensor to an existing monitoring point so that I can monitor the machine's performance. The sensor should have a unique ID, and the sensor model name should be one of ["TcAg", "TcAs", "HF+"].
+1. [ ] As a user, I want the system to prevent me from setting up "TcAg" and "TcAs" sensors for machines of the type "Pump".
+1. [ ] As a user, I want to see all my monitoring points in a paginated list so that I can manage them. The list should display up to 5 monitoring points per page and should include the following information: "Machine Name", "Machine Type", "Monitoring Point Name", and "Sensor Model".
+1. [ ] As a user, I want to sort the monitoring points list by any of its columns in ascending or descending order, so that I can easily find the information I'm looking for.
 
 ## Test Plan & Deliverables
 You should structure your QA solution with the following:
